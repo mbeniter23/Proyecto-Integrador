@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Primer Proyecto</title>
+</head>
+<body>
+    <header>
+        <img src="./imagenes/logo.png" alt="Logo de la tienda" whidth="80" height="80">
+        <h1>Mi Primer Proyecto</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#nosotros">Nosotros</a></li>
+            <li><a href="#productos">Productos</a></li>
+            <li><a href="#servicios">Servicios</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="inicio">
+            <h2>Inicio</h2>
+            <p>Bienvenido a nuestra página principal</p>
+            <img src="./imagenes/Edifier-MR4-first-look-1155x770.png" alt="Imagen de bienvenida" width="700" height="394">
+            <video controls poster="preview.jpg" width="600" height="400">
+                <source src="./videos/video.mp4" type="video/mp4">
+                <track src="./videos/video.srt" kind="subtitles" srclang="es" label="Español"> 
+            </video>
+        </section>
+
+        <section id="nosotros">
+            <h2>Nosotros</h2>
+            <p>Conoce más sobre nuestra historia y equipo.</p>
+        </section>
+
+        <section id="productos">
+            <h2>Productos</h2>
+            <p>Descubre nuestra gama de productos innovadores.</p>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <p>Ofrecemos una variedad de servicios para ti.</p>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto</h2>
+            <p>Ponte en contacto con nosotros.</p>            
+            <form action="https://formspree.io/f/mkgrlvyo" method="POST">
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required>
+
+                <label for="email">Correo electrónico:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea id="mensaje" name="mensaje" rows="4" cols="50" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <section>
+    </section>
+
+    <footer>
+        <p>Desarrollador: Marcelo Benitez</p>
+        <p>email: mbeniter@gmail.com</p>
+    </footer>
+    
+</body>
+</html>
